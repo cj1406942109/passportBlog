@@ -1,0 +1,35 @@
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+.form-title {
+  margin: 30px auto;
+  text-align: center;
+}
+.login-form {
+  max-width: 350px;
+  margin: 20px auto 0;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.login-form .btn-success {
+  margin-top: 20px;
+}
+.options-link {
+  max-width: 350px;
+  margin: 20px auto;
+  text-align: center;
+}
+.options-link ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.options-link ul li {
+  font-size: 30px;
+  margin: 10px;
+}

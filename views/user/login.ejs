@@ -1,0 +1,28 @@
+<%- include('../includes/header') -%>
+  <%- include('./form-title') -%>
+  <form class="login-form" action="/user/session" method="post" role="form">
+    <div class="form-group">
+      <label for="email">邮箱</label>
+      <input type="email" class="form-control" id="email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="password">密码</label>
+      <input type="password" class="form-control" id="password" name="password">
+    </div>
+
+    <button type="submit" class="btn btn-block btn-success">登录</button>
+  </form>
+  <div class="alert alert-dark options-link" role="alert">
+    新用户？<a href="/user/signup">点击注册</a>
+  </div>
+  <div class="alert alert-secondary options-link" role="alert">
+    使用其他方式登录
+    <ul>
+      <li><a href="/user/facebook" title="facebook"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="/user/github" title="github"><i class="fab fa-github"></i></a></li>
+      <li><a href="/user/twitter" title="twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="/user/google" title="google"><i class="fab fa-google"></i></a></li>
+      <li><a href="/user/linkedin" title="linkedin"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+  </div>
+<%- include('../includes/footer') -%>
